@@ -3,6 +3,7 @@ const express = require("express");
 const path = require("path");
 const hbs = require("hbs");
 const router = require("./router");
+const port = process.env.PORT;
 
 const viewpath = path.join(__dirname, "/templates/views"); // customize views directory
 
@@ -113,6 +114,6 @@ app.get("*", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("up and running");
 });
