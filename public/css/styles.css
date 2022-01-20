@@ -1,0 +1,92 @@
+html {
+  background-color: white;
+}
+body {
+  background-color: #ffffffe0;
+  max-width: 650px;
+  padding: 2em;
+  margin: auto;
+  margin-top: 0px;
+  border: 1px black solid;
+  position: relative;
+}
+
+header {
+  font-size: xx-large;
+  padding-bottom: 0;
+}
+
+header h2 {
+  width: fit-content;
+  height: inherit;
+}
+.nav {
+  padding-top: 5px;
+  padding-bottom: 2em;
+}
+
+.nav a {
+  padding-right: 20px;
+  color: #888;
+  text-decoration: none;
+  font-size: large;
+}
+
+footer {
+  position: absolute;
+  top: 90vh;
+  border-top: #888 solid 2px;
+  width: 80%;
+}
+
+#about-robot {
+  width: 50%;
+  height: 50%;
+}
+
+form {
+  position: relative;
+}
+
+#search {
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  padding: 4px;
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #444;
+  box-sizing: border-box;
+}
+
+button {
+  height: 20px;
+  width: 10%;
+  padding-bottom: 5px;
+  margin: 20px, auto;
+  box-sizing: border-box;
+  border: #888 2px solid;
+  border-radius: 20px;
+  background-color: white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 600px;
+  /* border: 3px solid green; // making big felx box */
+}
+
+.tag {
+  text-decoration: underline 1px solid #888;
+}
+
+.description {
+  font-size: large;
+  line-height: 2em;
+  word-spacing: normal;
+  color: black;
+}
