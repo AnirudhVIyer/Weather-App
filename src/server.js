@@ -3,7 +3,7 @@ const express = require("express");
 const path = require("path");
 const hbs = require("hbs");
 const router = require("./router");
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 const viewpath = path.join(__dirname, "/templates/views"); // customize views directory
 
